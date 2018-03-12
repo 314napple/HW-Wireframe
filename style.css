@@ -80,7 +80,8 @@ aside {
 /* sizing and styling the footer element */
 footer {
     clear: both;
-    height: 120px;
+    height: 57px;
+    padding-top: 35px;
     width: 100%;
     background-color: #ebebeb;
     color: #777;
