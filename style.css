@@ -1,0 +1,88 @@
+/* eliminating any default margin and padding */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* setting the site's background color */
+body {
+    background-color: #777;
+}
+/* initial font styling - stating body's width */
+.wrapper {
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px auto;
+    color: #777;
+}
+/* sizing and styling the header element */
+header {
+    width: 100%;
+    max-height: 120px;
+    padding: 40px 0;
+    background-color: #ebebeb;
+    margin-bottom: 10px;
+}
+/* sizing and styling the nav element */
+nav {
+    width: 100%;
+    max-height: 115px;
+    padding: 40px 0;
+    background-color: #ebebeb;
+    margin-bottom: 10px;
+}
+/* sizing and styling the section element (contains <article>) */
+section {
+    width: 495px;
+    height: 250px;
+    padding: 5px 0;
+    background-color: #ebebeb;
+    border: 1px solid;
+    float: left;
+    padding-top: 15px;
+}
+/* sizing and styling the article element */
+article {
+    height: 180px;
+    background-color: #777;
+    color: #ebebeb;
+    margin: 25px 10px 0 10px;
+    padding-top: 6px;
+}
+/* sizing and styling the div with the class of .h-container */
+.h-container {
+    background-color: #ebebeb;
+    color: #777;
+    margin: 10px;
+    height: 40px;
+    padding-top: 20px;
+}
+/* sizing and styling the p element located in <article> */
+article > p {
+    background-color: #ebebeb;
+    color: #777;
+    margin: 10px;
+    height: 40px;
+    padding-top: 20px;
+}
+/* sizing and styling the aside element */
+aside {
+    width: 453px;
+    height: 172px;
+    background-color: #ebebeb;
+    color: #777;
+    float: left;
+    padding: 50px 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+/* sizing and styling the footer element */
+footer {
+    clear: both;
+    height: 120px;
+    width: 100%;
+    background-color: #ebebeb;
+    color: #777;
+}
+
